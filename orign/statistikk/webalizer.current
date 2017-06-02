@@ -1,0 +1,261 @@
+# Webalizer V2.23-08 Incremental Data - 06/02/2017 07:45:22
+2017 6 2 7 45 22
+138 92 23 11 8 11 4015291 33 13 0
+6 44 44 1 2
+90 59 2938291 18 21 9
+48 33 1077000 6 12 4
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+2 0 450 1
+1 0 238 1
+1 0 233 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+44 33 1076079 10
+9 9 354411 2
+12 1 2987 3
+0 0 0 0
+0 0 0 0
+0 0 0 0
+22 16 1200649 3
+0 0 0 0
+5 2 204063 3
+0 0 0 0
+10 10 360131 2
+0 0 0 0
+11 0 435 4
+0 0 0 0
+0 0 0 0
+20 20 713910 4
+1 1 101705 0
+0
+0
+0
+92
+0
+0
+0
+0
+0
+6
+0
+0
+0
+0
+28
+0
+0
+0
+0
+0
+0
+12
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/css/fonts/icomoon.ttf
+0 9 0 34320 0 0
+/img/bg-header.jpg
+1 11 0 743368 0 0
+/img/logo.png
+1 13 0 89460 0 0
+/js/landio.min.js
+0 11 0 478432 0 0
+/js/
+0 11 0 6992 0 2
+/img/favicon/fav.png
+1 7 0 17808 0 0
+/css/cubit.css
+0 11 0 213720 0 0
+/img/mock.png
+1 23 0 1941395 0 0
+/css/fonts/icomoon.eot
+0 6 0 22158 0 0
+/
+0 13 0 28458 10 0
+/img/bg-testimonials.jpg
+1 11 0 436512 0 0
+# End Of Table - urls
+# -sites- (monthly)
+66.249.65.35
+0 2 0 467 1 1496365302
+-
+66.249.65.39
+0 1 0 221 0 0
+-
+109.189.152.9
+0 37 1 4291 4 1496389072
+-
+84.210.93.91
+0 9 9 354411 1 1496304009
+/js/
+77.16.202.16
+0 10 10 360131 1 1496338094
+/js/
+212.251.169.119
+0 21 21 815615 2 1496357014
+/js/
+69.63.188.202
+0 1 1 101705 0 0
+-
+173.252.75.117
+0 1 1 8946 0 0
+-
+66.220.151.88
+0 1 1 101705 0 0
+-
+173.252.75.114
+0 1 1 101705 0 0
+-
+66.220.146.21
+0 2 2 12162 1 1496323118
+/
+173.252.74.119
+0 1 1 101705 0 0
+-
+66.220.152.140
+0 1 1 101705 0 0
+-
+173.252.88.191
+0 1 1 101705 0 0
+-
+173.252.88.180
+0 1 1 101705 0 0
+-
+69.171.228.119
+0 1 1 101705 0 0
+-
+66.220.146.25
+0 1 1 8946 0 0
+-
+66.220.152.180
+0 1 1 101705 0 0
+-
+85.19.83.146
+0 11 11 358621 1 1496387408
+/js/
+66.249.65.37
+0 1 0 233 0 0
+-
+173.252.124.239
+0 1 1 101705 0 0
+-
+185.113.224.7
+0 10 10 356955 1 1496323066
+/js/
+185.26.131.131
+0 22 22 717242 1 1496389521
+/js/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+66.249.65.35
+0 2 0 467 1 1496365302
+-
+66.249.65.39
+0 1 0 221 0 0
+-
+109.189.152.9
+0 11 0 216 1 1496389072
+-
+85.19.83.146
+0 11 11 358621 1 1496387408
+/js/
+66.249.65.37
+0 1 0 233 0 0
+-
+185.26.131.131
+0 22 22 717242 1 1496389521
+/js/
+# End Of Table - sites (daily)
+# -referrers- 
+http://cubit.no/wp-admin
+0 1
+http://www.google.no/url
+0 1
+http://cubit.no/
+0 69
+- (Direct Request)
+0 35
+http://www.cubit.no/
+0 15
+http://www.cubit.no/css/cubit.css
+0 3
+http://cubit.no/css/cubit.css
+0 12
+https://www.google.no/
+0 2
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko
+0 1
+facebookexternalhit/1.1
+0 2
+Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)
+0 4
+Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko
+0 10
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+0 19
+facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
+0 12
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36
+0 37
+Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; Touch; rv:11.0) like Gecko
+0 20
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; Touch; rv:11.0) like Gecko
+0 2
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_2_1 like Mac OS X) AppleWebKit/602.4.6 (KHTML, like Gecko) Version/10.0 Mobile/14D27 Sa
+0 10
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.1 Safari/603.1.30
+0 21
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames

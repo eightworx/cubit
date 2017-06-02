@@ -1,41 +1,12 @@
 /* ---- particles.js config ---- */
-$(function () {
 
-  $('.scroll-to').click(function (e) {
-    e.preventDefault();
-    var target = $(this).data('scroll');
-    $('html, body').animate({
-      scrollTop: $(target).offset().top
-    }, 1000);
-  })
-
-  $("#contact").submit(function (e) {
-    e.preventDefault();
-    var form_data = $(this).serialize();
-    $.ajax({
-      type: "POST",
-      url: "send.php",
-      dataType: "json", // Add datatype
-      data: form_data
-    }).done(function (data) {
-      console.log(data);
-      if (data.status === 'success') {
-        $('#contact').replaceWith('<div class="text-xs-center m-b-3">Takk</div>');
-      } else {
-        $('#contact').replaceWith('<div class="text-xs-center m-b-3">Error</div>');
-      }
-    }).fail(function (data) {
-      console.log(data);
-    });
-  });
-});
 particlesJS("particles-js", {
   "particles": {
     "number": {
       "value": 100,
       "density": {
         "enable": true,
-        "value_area": 1000
+        "value_area":1000
       }
     },
     "color": {
