@@ -1,3 +1,18 @@
+<?php
+if(isset($_POST['submit'])){
+    $to = "alexander@stroemme.net"; // this is your Email address
+    $from = $_POST['email']; // this is the sender's Email address
+    $first_name = $_POST['first_name'];
+    $subject = "Melding fra Cubit";
+
+    $headers = "Fra:" . $from;
+    $headers2 = "Til:" . $to;
+    mail($to,$subject,$message,$headers);
+    mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender
+    echo "Takk din kontaktinformasjon er nå mottat " . $first_name . ", vi vil ta kontakt med deg fortløpende.";
+    // You can also use header('Location: thank_you.php'); to redirect to another page.
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -29,7 +44,7 @@
     <header class="jumbotron bg-inverse text-xs-center center-vertically" role="banner">
       <div class="container">
         <h1 class="display-3">Cubit, et smartere tilsyn.</h1>
-        <h2 class="m-b-3">Cubit har laget et nytt tilsynssystem for nettselskaper sammen med Hafslund DLE. <br>Send oss din epost eller telefonnummer for demonstrasjon og tidlig tilgang til en ny tilsynshverdag</h2>
+        <h2 class="m-b-3">Cubit har laget et nytt tilsynssystem for nettselskaper sammen med Hafslund DLE. Send oss din epost eller telefonnummer for demonstrasjon og tidlig tilgang til en ny tilsynshverdag</h2>
         <a class="btn btn-secondary-outline m-b-1" href="#em" role="button">Scroll ned for å lese mer...</a>
         <ul class="nav nav-inline social-share">
           <li class="nav-item"><a class="nav-link" href="#"><span class="icon-facebook"></span></a></li>
@@ -80,7 +95,7 @@
         </div>
       </div>
     </section>
-    <!-- <section class="section-testimonials text-xs-center bg-inverse">
+    <section class="section-testimonials text-xs-center bg-inverse">
       <div class="container">
         <h3 class="sr-only">Dette sier våre brukere om oss</h3>
         <div id="carousel-testimonials" class="carousel slide" data-ride="carousel" data-interval="0">
@@ -114,12 +129,12 @@
           </ol>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <!-- Text Content
     ================================================== -->
 
-    <!-- <section class="section-text">
+    <section class="section-text">
       <div class="container">
         <h3 class="text-xs-center">Smartere og enklere utvalg</h3>
         <div class="row p-y-3">
@@ -181,18 +196,15 @@
         </div>
       </div>
     </section>
-  -->
     <section class="section-signup bg-faded">
       <div class="container">
-        <h3 class="text-xs-center m-b-3">Vil du vite mer? <br>Kontakt oss på <em><a href="#">soldal@cubit.no</a><em></h3>
-        </div>
-      <!--
-        <form>
+        <h3 class="text-xs-center m-b-3">Vil du vite mer? Meld deg på vårt nyhetsbrev.</h3>
+        <form action="" method="post">
           <div class="row">
             <div class="col-md-5 col-xl-4">
               <div class="form-group has-icon-left form-control-name">
                 <label class="sr-only" for="inputName">Dit navn</label>
-                <input type="text" class="form-control form-control-lg" id="inputName" placeholder="Fulltnavn">
+                <input type="first_name" class="form-control form-control-lg" id="inputName" placeholder="Fulltnavn">
               </div>
             </div>
             <div class="col-md-5 col-xl-4">
@@ -207,7 +219,7 @@
               </div>
             </div>
           </div>
-        </form> -->
+        </form>
       </div>
     </section>
     <footer class="section-footer bg-inverse" role="contentinfo">
